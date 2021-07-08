@@ -1,5 +1,5 @@
 # Nether Portal Coordinate Calculator
 
-[Main page](https://boafur.cf/nether)
+[Main page](https://nethercalc.cf/)
 
 This project was created in 4:20h
