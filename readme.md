@@ -1,4 +1,4 @@
-# Nether Coordinate Calculator
+# Nether Portal Coordinate Calculator
 
 [Main page](https://boafur.cf/nether)
 
