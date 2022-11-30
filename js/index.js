@@ -32,8 +32,8 @@ function onSubmit(event) {
       setTimeout(() => { msg.classList.remove('error'); msg.innerHTML = ''; }, 3000);
     }
   } else if (dim.value === 'nether') {
-    display.innerHTML = coordY.match(whitespace) ? `Portal in Nether should be at: ${coordX} ${coordZ}<br><br>Portal in Overworld should be at: ${parseInt(coordX) * 8} ${parseInt(coordZ) * 8}` : `Portal in Nether should be at: ${coordX} ${coordY} ${coordZ}<br><br>Portal in Overworld should be at: ${parseInt(coordX) * 8} ${parseInt(coordY)} ${parseInt(coordZ) * 8}`;
+    display.innerHTML = coordY.match(whitespace) ? `Portal in Nether should be built at: ${coordX} ${coordZ}<br><br>Portal in Overworld should be at: ${parseInt(coordX) * 8} ${parseInt(coordZ) * 8}` : `Portal in Nether should be at: ${coordX} ${coordY} ${coordZ}<br><br>Portal in Overworld should be at: ${parseInt(coordX) * 8} ${parseInt(coordY)} ${parseInt(coordZ) * 8}`;
   } else if (dim.value === 'overworld') {
-    display.innerHTML = coordY.match(whitespace) ? `Portal in Nether should be at: ${parseInt(coordX) / 8} ${parseInt(coordZ) / 8}<br><br>Portal in Overworld should be at: ${coordX} ${coordZ}` : `Portal in Nether should be at: ${parseInt(coordX) / 8} ${coordY} ${parseInt(coordZ) / 8}<br><br>Portal in Overworld should be at: ${coordX} ${coordY} ${coordZ}`;
+    display.innerHTML = coordY.match(whitespace) ? `Portal in Nether should be built at: ${parseInt(coordX) / 8} ${parseInt(coordZ) / 8}<br><br>Portal in Overworld should be at: ${coordX} ${coordZ}` : `Portal in Nether should be at: ${parseInt(coordX) / 8} ${coordY} ${parseInt(coordZ) / 8}<br><br>Portal in Overworld should be at: ${coordX} ${coordY} ${coordZ}`;
   }
 }
